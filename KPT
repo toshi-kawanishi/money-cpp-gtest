@@ -1,0 +1,21 @@
+2010-11-19 kaorun55 tosikawa <mos@bubaigawara>
+
+	   * Keep:
+	   - git now素敵
+	   - git now ++
+	   - 本は一人一冊
+	   - ToDo をコミット
+	   - リズム
+	   - テスト駆動開発入門の写経
+
+	   * Problem:
+	   - 書くもの忘れた
+	   - ignoreに抜けがあった
+	   - git now のLinux化に時間がかかった <- 1時間
+
+	   * Try:
+	   - git-now.el
+	   - 色々な言語でMoeny
+
+	   * Keep じゃないけど良かったこと:
+	   - Minamoのモスがペアプロしやすい <- ルノアールより自然
