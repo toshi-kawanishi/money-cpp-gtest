@@ -15,7 +15,7 @@ public:
 	}
 
 	bool operator == ( const Dollar& dollar ) {
-		return equals( dollar );
+		return amount == dollar.amount;
 	}
 
 	int amount;
