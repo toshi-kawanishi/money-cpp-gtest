@@ -8,7 +8,7 @@ class MoneyTest : public ::testing::Test
 
 TEST_F( MoneyTest, testMultiplication )
 {
-	Dollar five;
+	Dollar five( 5 );
 	five.times( 2 );
 	EXPECT_EQ( 10, five.amount );
 }
