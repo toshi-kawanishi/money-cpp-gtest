@@ -14,5 +14,6 @@ public:
 		return amount == dollar.amount;
 	}
 
+private:
 	int amount;
 };
