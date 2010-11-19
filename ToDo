@@ -10,4 +10,4 @@
 - equalsをoperator==に変える
   5 CHF * 2 = 10 CHF
   timesをoperator*に変える
-  constメンバ関数
+- constメンバ関数
