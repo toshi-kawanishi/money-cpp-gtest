@@ -1,4 +1,8 @@
-class Dollar
+class Money
+{
+};
+
+class Dollar : public Money
 {
 public:
 
