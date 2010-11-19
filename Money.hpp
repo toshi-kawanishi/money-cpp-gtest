@@ -1,5 +1,7 @@
 class Money
 {
+protected:
+	int amount;
 };
 
 class Dollar : public Money
@@ -17,9 +19,6 @@ public:
 	bool operator == ( const Dollar& dollar ) const {
 		return amount == dollar.amount;
 	}
-
-private:
-	int amount;
 };
 
 class Franc
