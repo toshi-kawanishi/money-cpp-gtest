@@ -7,3 +7,4 @@
 - hushCode()->C++いらない
   nullとの等価性
   オブジェクトとの等価性
+  equalsをoperator=に変える
