@@ -10,8 +10,8 @@ public:
 		return Dollar( amount * multiplier );
 	}
 
-	bool equals( const Dollar& object ) {
-		return true;
+	bool equals( const Dollar& doller ) {
+		return amount == doller.amount;
 	}
 
 	int amount;
