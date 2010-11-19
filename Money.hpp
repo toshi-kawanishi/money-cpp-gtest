@@ -6,8 +6,9 @@ public:
 		this->amount = amount;
 	}
 
-	void times( int multiplier ) {
+	Dollar times( int multiplier ) {
 		amount *= multiplier;
+		return Dollar( 0 );
 	}
 
 	int amount;
