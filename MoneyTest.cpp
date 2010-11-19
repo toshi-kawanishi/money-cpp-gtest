@@ -15,3 +15,8 @@ TEST_F( MoneyTest, testMultiplication )
 	product = five.times( 3 );
 	EXPECT_EQ( 15, product.amount );
 }
+
+TEST_F( MoneyTest, testEquality )
+{
+	EXPECT_TRUE( Dollar( 5 ).equals( Dollar( 5 ) ) );
+}
