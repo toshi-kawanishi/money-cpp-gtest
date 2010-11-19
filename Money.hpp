@@ -6,6 +6,10 @@ public:
 		return amount_;
 	}
 
+	bool operator == ( const Money& money ) const {
+		return amount() == money.amount();
+	}
+
 protected:
 	int amount_;
 };
@@ -20,10 +24,6 @@ public:
 
 	Dollar operator * ( int multiplier ) const {
 		return Dollar( amount() * multiplier );
-	}
-
-	bool operator == ( const Money& money ) const {
-		return amount() == money.amount();
 	}
 };
 
