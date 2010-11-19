@@ -7,7 +7,7 @@ public:
 	}
 
 	void times( int multiplier ) {
-		amount = amount * multiplier;
+		amount *= multiplier;
 	}
 
 	int amount;
