@@ -33,6 +33,10 @@ public:
 		return Franc( amount * multiplier );
 	}
 
+	Franc operator * ( int multiplier ) const {
+		return times( multiplier );
+	}
+
 	bool operator == ( const Franc& franc ) const {
 		return amount == franc.amount;
 	}
