@@ -13,7 +13,7 @@ TEST_F( MoneyTest, testMultiplication )
 	EXPECT_TRUE( Dollar( 10 ) == five.times( 2 ) );
 
 	product = five.times( 3 );
-	EXPECT_TRUE( Dollar( 15 ) == product );
+	EXPECT_TRUE( Dollar( 15 ) == five.times( 3 ) );
 }
 
 TEST_F( MoneyTest, testEquality )
