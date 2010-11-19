@@ -17,3 +17,22 @@ public:
 private:
 	int amount;
 };
+
+class Franc
+{
+public:
+	Franc( int amount ) {
+		this->amount = amount;
+	}
+
+	Franc times( int multiplier ) {
+		return Franc( amount * multiplier );
+	}
+
+	bool operator == ( const Franc& franc ) {
+		return amount == franc.amount;
+	}
+
+private:
+	int amount;
+};
