@@ -9,8 +9,8 @@
   オブジェクトとの等価性
 - equalsをoperator==に変える
 - 5 CHF * 2 = 10 CHF
-  timesをoperator*に変える
+- timesをoperator*に変える
 - constメンバ関数
   DollarとFrancの重複
   operator==の一般化
-  timesの一般化
+  operator*の一般化
