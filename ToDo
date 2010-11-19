@@ -5,3 +5,5 @@
   Moneyの丸め処理
 - equals()
 - hushCode()->C++いらない
+  nullとの等価性
+  オブジェクトとの等価性
