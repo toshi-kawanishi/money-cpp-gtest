@@ -14,5 +14,9 @@ public:
 		return amount == doller.amount;
 	}
 
+	bool operator == ( const Dollar& dollar ) {
+		return equals( dollar );
+	}
+
 	int amount;
 };
