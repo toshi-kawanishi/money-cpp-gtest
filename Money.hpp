@@ -6,12 +6,8 @@ public:
 		this->amount = amount;
 	}
 
-	Dollar times( int multiplier ) const {
-		return Dollar( amount * multiplier );
-	}
-
 	Dollar operator * ( int multiplier ) const {
-		return times( multiplier );
+		return Dollar( amount * multiplier );
 	}
 
 	bool operator == ( const Dollar& dollar ) const {
@@ -29,12 +25,8 @@ public:
 		this->amount = amount;
 	}
 
-	Franc times( int multiplier ) const {
-		return Franc( amount * multiplier );
-	}
-
 	Franc operator * ( int multiplier ) const {
-		return times( multiplier );
+		return Franc( amount * multiplier );
 	}
 
 	bool operator == ( const Franc& franc ) const {
