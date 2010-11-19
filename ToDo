@@ -14,3 +14,4 @@
   DollarとFrancの重複
 - operator==の一般化
   operator*の一般化
+  FrancとDollarの比較
