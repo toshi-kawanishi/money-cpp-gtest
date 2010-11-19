@@ -3,5 +3,5 @@
   amountのprivate化
 - Dollarの副作用
   Moneyの丸め処理
-  equals()
+- equals()
 - hushCode()->C++いらない
