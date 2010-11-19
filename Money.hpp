@@ -27,21 +27,14 @@ public:
 	}
 };
 
-class Franc
+class Franc : public Money
 {
 public:
 	Franc( int amount ) {
-		this->amount = amount;
+		this->amount_ = amount;
 	}
 
 	Franc operator * ( int multiplier ) const {
-		return Franc( amount * multiplier );
+		return Franc( amount() * multiplier );
 	}
-
-	bool operator == ( const Franc& franc ) const {
-		return amount == franc.amount;
-	}
-
-private:
-	int amount;
 };
