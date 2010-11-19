@@ -12,5 +12,5 @@
 - timesをoperator*に変える
 - constメンバ関数
   DollarとFrancの重複
-  operator==の一般化
+- operator==の一般化
   operator*の一般化
