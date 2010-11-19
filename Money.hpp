@@ -1,7 +1,13 @@
 class Money
 {
+public:
+
+	int amount() const {
+		return amount_;
+	}
+
 protected:
-	int amount;
+	int amount_;
 };
 
 class Dollar : public Money
@@ -9,15 +15,15 @@ class Dollar : public Money
 public:
 
 	Dollar( int amount ) {
-		this->amount = amount;
+		this->amount_ = amount;
 	}
 
 	Dollar operator * ( int multiplier ) const {
-		return Dollar( amount * multiplier );
+		return Dollar( amount() * multiplier );
 	}
 
-	bool operator == ( const Dollar& dollar ) const {
-		return amount == dollar.amount;
+	bool operator == ( const Money& money ) const {
+		return amount() == money.amount();
 	}
 };
 
