@@ -10,6 +10,10 @@ public:
 		return Dollar( amount * multiplier );
 	}
 
+	Dollar operator * ( int multiplier ) const {
+		return times( multiplier );
+	}
+
 	bool operator == ( const Dollar& dollar ) const {
 		return amount == dollar.amount;
 	}
